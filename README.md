@@ -13,6 +13,8 @@
 
 !["Муха"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Fly.png)
 
+!["Кадры анимации для разных состояний жабки с героиней"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Все%20позы%20жабки.png)
+
 !["Музычка для меню"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Что-то%20прикольное%20для%20интро-обучения.mp3)
 (замедленная темка ожидания хода Ордена Порядка из 5 Героев Меча и Магии
 
