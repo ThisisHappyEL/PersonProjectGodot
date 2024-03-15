@@ -10,3 +10,12 @@
 ### Из моего есть:
 
 !["Тайлсет"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Финальный%20тайлсет.png)
+
+!["Муха"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Fly.png)
+
+!["Музычка для меню"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Что-то%20прикольное%20для%20интро-обучения.mp3)
+(замедленная темка ожидания хода Ордена Порядка из 5 Героев Меча и Магии
+
+!["Музычка для уровня"](https://github.com/ThisisHappyEL/PersonProjectGodot/blob/main/Медленная_-_www.FesliyanStudios.mp3)
+(замедленная "Cat and Mouse" с наложенными звуками жабок)
+
