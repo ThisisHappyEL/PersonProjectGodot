@@ -1,0 +1,68 @@
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://dryvmbr2c75wm"]
+
+[ext_resource type="FontFile" uid="uid://puv0mkrw0k8w" path="res://assets/Other/Tribal Garamond.ttf" id="1_7j5vt"]
+[ext_resource type="Texture2D" uid="uid://i6idyytxlvf8" path="res://assets/Other/UI_border.png" id="2_p0a3l"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_emc1r"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_uofp3"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kt532"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+modulate_color = Color(0.580392, 0.580392, 0.580392, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fjxto"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bnr1l"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_nilq5"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_660e8"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 20.0
+texture_margin_top = 20.0
+texture_margin_right = 20.0
+texture_margin_bottom = 20.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dkvsu"]
+texture = ExtResource("2_p0a3l")
+texture_margin_left = 10.0
+texture_margin_top = 10.0
+texture_margin_right = 10.0
+texture_margin_bottom = 10.0
+
+[resource]
+default_font = ExtResource("1_7j5vt")
+Button/styles/disabled = SubResource("StyleBoxTexture_emc1r")
+Button/styles/focus = SubResource("StyleBoxTexture_uofp3")
+Button/styles/hover = SubResource("StyleBoxTexture_kt532")
+Button/styles/normal = SubResource("StyleBoxTexture_fjxto")
+Button/styles/pressed = SubResource("StyleBoxTexture_bnr1l")
+Label/fonts/font = ExtResource("1_7j5vt")
+Label/styles/normal = SubResource("StyleBoxTexture_nilq5")
+Panel/styles/panel = SubResource("StyleBoxTexture_660e8")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_dkvsu")

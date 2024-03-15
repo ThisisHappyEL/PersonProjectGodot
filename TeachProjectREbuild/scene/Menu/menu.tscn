@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckl1acte0uyf5"]
+
+[ext_resource type="PackedScene" uid="uid://d21nbcti7wru1" path="res://scene/BG/bg.tscn" id="1_6t8bw"]
+[ext_resource type="Script" path="res://scene/Menu/menu.gd" id="1_pda3i"]
+[ext_resource type="AudioStream" uid="uid://b7p1udqdkt1vd" path="res://sound/music/medieval-fantasy-142837.mp3" id="3_272pf"]
+[ext_resource type="AudioStream" uid="uid://bfq1h38wmcc1i" path="res://sound/SFX/click-21156.mp3" id="4_navdb"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_pda3i")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 398.0
+offset_top = 175.0
+offset_right = 730.0
+offset_bottom = 283.0
+theme_override_font_sizes/font_size = 50
+text = "Play"
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 398.0
+offset_top = 360.0
+offset_right = 730.0
+offset_bottom = 468.0
+theme_override_font_sizes/font_size = 50
+text = "Quit
+"
+
+[node name="BG" parent="." instance=ExtResource("1_6t8bw")]
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_272pf")
+volume_db = -20.0
+autoplay = true
+
+[node name="buttons" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_navdb")
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
