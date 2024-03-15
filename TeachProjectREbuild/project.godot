@@ -22,7 +22,6 @@ Global="*res://scene/global.gd"
 
 [display]
 
-window/size/initial_position_type=0
 window/stretch/mode="viewport"
 
 [dotnet]
